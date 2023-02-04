@@ -1,8 +1,11 @@
 import React from 'react'
+import TopBar from './components/TopBar';
 
 function App() {
   return (
-   <h1>Hello World</h1>
+   <div>
+    <TopBar/>
+   </div>
   );
 }
 
