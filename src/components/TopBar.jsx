@@ -6,8 +6,8 @@ const TopBar = () => {
   return (
     <div className='flex justify-between items-center px-4 py-2'>
         <div className='flex items-center'>
-            <BsChatSquareDots size={30} className="text-cyan-400 mr-2"/>
-            <h1 className='text-xl font-bold text-gray-700'>Miah Travel World</h1>
+            <BsChatSquareDots size={25} className="text-cyan-400 mr-2"/>
+            <h1 className='text-xl font-bold text-gray-700 uppercase'>Miah World</h1>
         </div>
         <div className='flex'>
             <div className='hidden md:flex items-center px-6'>
